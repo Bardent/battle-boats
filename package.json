@@ -1,0 +1,20 @@
+{
+  "name": "battle-boats",
+  "version": "1.0.0",
+  "description": "My solution for the battle ship project as part of The Odin Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bardent/battle-boats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bardent/battle-boats/issues"
+  },
+  "homepage": "https://github.com/Bardent/battle-boats#readme"
+}
