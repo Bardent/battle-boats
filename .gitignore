@@ -1,2 +1,5 @@
 # ignore node/grunt dependency directories
 node_modules/
+
+# ignore files bundled by webpack
+dist/
