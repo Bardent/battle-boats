@@ -1,3 +1,3 @@
-console.log('Hello World!');
-
-// this is a comment
+export function someFunction(a, b) {
+  return a + b;
+}
