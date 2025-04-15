@@ -7,7 +7,7 @@ import eslintConfigPrettier from 'eslint-config-prettier/flat';
 export default defineConfig([
   {
     files: ['**/*.{js,mjs,cjs}'],
-    languageOptions: { globals: globals.node },
+    languageOptions: { globals: { ...globals.node, ...globals.jest } },
   },
   {
     files: ['**/*.{js,mjs,cjs}'],
