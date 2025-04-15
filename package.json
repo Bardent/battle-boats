@@ -1,0 +1,41 @@
+{
+  "name": "battle-boats",
+  "version": "1.0.0",
+  "description": "My solution for the battle ship project as part of The Odin Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "start": "webpack server --open",
+    "lint": "eslint",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bardent/battle-boats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bardent/battle-boats/issues"
+  },
+  "homepage": "https://github.com/Bardent/battle-boats#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@eslint/js": "^9.24.0",
+    "@types/jest": "^29.5.14",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "globals": "^16.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^29.7.0",
+    "prettier": "3.5.3",
+    "webpack": "^5.99.5",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
